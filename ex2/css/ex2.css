@@ -1,0 +1,159 @@
+.background {
+	background-image: url(http://www.hdnicewallpapers.com/Walls/Big/Sunset/Amazing_Nature_Sunset_Pic_of_Trees_in_Jungle_HD_Desktop_Background_Wallpaper.jpg);
+	background-size: cover;
+    height: 650px;
+}
+.head-title{
+	text-align: center;
+	padding-top: 125px;
+	font-size: 65px;
+	color: white;
+	font-weight: bold;
+}
+.head-text{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+}
+button:hover{
+	background-color: blue;
+}
+.top-button{
+	padding-top: 90px;
+}
+.bottom-button{
+	padding-top: 40px;
+}
+.button-1{
+	background-color: #E84644;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 15px 45px;
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    margin: auto;
+    cursor: pointer;
+    font-weight: bold;
+}
+.button-2{
+	background-color: #E84644;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 15px 45px;
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    margin: auto;
+    cursor: pointer;
+    font-weight: bold;
+    transform: rotate(2deg);
+}
+.container1{
+	padding-top: 100px;
+}
+.main-text{
+	color: gray;
+	line-height: 25px;
+}
+.sub-text{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+}
+.blog-row1 {
+	text-align: center;
+	padding-bottom: 50px;
+}
+.blog-row2 {
+	text-align: center;
+}
+.icons{
+	padding-bottom: 20px;
+}
+.icons .glyphicon{
+	color: #E84644;
+	font-size: 65px;
+}
+.service{
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.container2{
+	padding-top: 130px;
+}
+.container3{
+	padding-top: 280px;
+	text-align: center;
+    padding-bottom: 95px;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.name{
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.job{
+    color: #E84644;
+    padding-bottom: 15px;
+}
+.fa:hover{
+	background-color: red;
+}
+.small-icons .fa{
+	border: 1px solid #E8EBF0;
+    display: inline-block;
+    padding: 10px;
+    color: #C6CACD;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+}
+.block-1{
+	background-color: #3A3E64;
+	height: 320px;
+	padding-top: 90px;
+	text-align: center;
+}
+.block-2{
+	height: 100px;
+	text-align: center;
+	background-color: #313455;
+	padding-top: 30px;
+}
+.bottom-title{
+    color: white;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.bottom-text{
+    color: #9DA0B3;
+}
+.bottom-icons .fa{
+	border: 2px solid white;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    width: 42px;
+    text-align: center;
+    margin-top: 8px;
+    margin: 2px;
+}
+ul{
+	list-style-type: none;
+	padding: 0px;
+	text-align: center;
+}
+.bottom-text ul .heart-symbol{
+	color: red;
+    font-size: 15px;
+}
+.bottom-text ul .developer{
+	color: white;
+}
