@@ -1,5 +1,4 @@
 body, html{
-	text-align: center;
 	font-size: 17px;
 	height: 100%;
 }
@@ -72,12 +71,12 @@ body, html{
 }
 .article-mock-background{
 	background-image: url(images/mock.png);
-	background-size: cover;
-    height: 100%;
-    background-position: center;
+    background-position: center bottom;
+    background-repeat: no-repeat;
 }
 .article-mock-text{
-    margin-top: 90px;
+    padding-top: 90px;
+    padding-bottom: 330px;
 }
 .article-title{
     margin-bottom: 20px;
@@ -89,6 +88,7 @@ body, html{
 h2{
    font-size: 30px;
    margin-bottom: 0px;
+   text-align: center;
 }
 .service-info{
 	font-weight: bold;
@@ -96,19 +96,7 @@ h2{
 .service-icons{
 	margin-bottom: 10px;
 }
-.glyphicon-pencil{
-    border: 4px solid #F5F5F5;
-    border-radius: 50%;
-    font-size: 30px;
-    padding: 25px;
-}
-.glyphicon-phone{
-    border: 4px solid #F5F5F5;
-    border-radius: 50%;
-    font-size: 30px;
-    padding: 25px;
-}
-.glyphicon-asterisk{
+.service-icons .glyphicon{
 	border: 4px solid #F5F5F5;
     border-radius: 50%;
     font-size: 30px;
@@ -117,18 +105,28 @@ h2{
 .service-line{
 	margin: 30px 0px;
 }
-.article-sample-image{
-	background-image: url(images/video-poster.jpg);
-	background-size: cover;
-	height: 100%;
+.highligh-img-wrapper{
+	width: 100%;
 	background-position: center;
 	margin-bottom: 70px;
 }
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
 .subscription-container{
-	margin-bottom: 65px;
+	padding-bottom: 110px;
 }
 ul{
 	padding-left: 0px;
+	list-style-type: none;
+}
+li{
+	border-bottom: 1px solid lightgray;
+    padding: 15px;
+}
+li:last-child{
+	border-bottom: none;
 }
 .subscription-list{
     margin-top: 60px;
@@ -140,7 +138,6 @@ ul{
     font-weight: bold;
     background-color: #ECEFF4;
     margin-bottom: 25px;
-    border-radius: 3px;
 }
 .choice-name-professional{
     border: 1px solid #6C59B3;
@@ -149,7 +146,6 @@ ul{
     font-weight: bold;
     background-color: #6C59B3;
     margin-bottom: 25px;
-    border-radius: 3px;
     color: white;
 }
 .choice-name-enterprise{
@@ -159,7 +155,6 @@ ul{
     font-weight: bold;
     background-color: #ECEFF4;
     margin-bottom: 25px;
-    border-radius: 3px;
 }
 .choice-prices{
 
@@ -179,7 +174,7 @@ ul{
     color: #B2B3B7;
 }
 .choice-advantages{
-	margin-top: 20px;
+
 }
 .personal-choice {
 	margin-top: 70px;
@@ -230,30 +225,29 @@ ul{
 }
 .subscription-personal{
     display: inline-block;
-    width: 360px;
     text-align: center;
     border: 1px solid #ECEFF4;
     border-radius: 3px;
 }
 .subscription-professional{
-    display: inline-block;
-    width: 410px;
+    display: inline-block;   
     text-align: center;
     border: 2px solid #6C59B3;
     border-radius: 3px;
 }
 .subscription-enterprise{
-    display: inline-block;
-    width: 360px;
+    display: inline-block;  
     text-align: center;
     border: 1px solid #ECEFF4;
     border-radius: 3px;
 }
 .introduction-container{
 	margin-bottom: 90px;
+    padding-top: 50px;
 }
 .introduction-title{
     margin-bottom: 60px;
+    text-align: center;
 }
 .introduction-block-1{
     padding-right: 60px;
@@ -327,4 +321,41 @@ a:hover{
 	background-color: #313038;
 	border: none;
 	cursor: pointer;
+}
+.article-block{
+    width: 1000px;
+    margin: auto;
+}
+.article-content{
+	background-color: #313038;	
+	height: 343px;
+    padding: 90px;
+}
+.article-text{
+	color: white;
+	font-weight: bold;
+}
+img{
+	width: 100%;
+}
+.featured-article{
+    color: white;
+    background-color: #2B8BE2;
+    padding: 5px 10px;
+    text-align: center;
+    display: table;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+.article-icons{
+	color: #ADADAF;
+	margin-top: 20px;
+}
+.article-icons .icons-text{
+	font-family: arial;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
 }
