@@ -44,10 +44,11 @@ header nav li:first-child a{
     margin-top: 170px;
     margin-bottom: 30px;
 }
-.welcome{
+.title-welcome{
 	font-family: 'mont-bold';
 	font-size: 150px;
 	color: #F9F3DC;
+	padding: 0px 50px;
 }
 .to-mogo{
 	font-family: 'mont-bold';
@@ -63,7 +64,7 @@ header nav li:first-child a{
     margin-top: 60px;
     margin-bottom: 50px;
 }
-.learn-more{
+.btn-learn-more{
 	border: 3px solid #F9F3DC;
     display: table;
     text-align: center;
@@ -76,12 +77,13 @@ header nav li:first-child a{
 }
 .header-icon{
 	color: #F9F3DC;
+	cursor: pointer;
 }
 .line-container {
 	margin-top: 155px;
 	padding-bottom: 25px;
 }
-.service{
+.header-service{
 	text-align: left;
 	margin-top: 25px;
 }
@@ -89,6 +91,7 @@ header nav li:first-child a{
     border: 2px solid #F6EAC5;
     display: block;
     width: 100%;
+    position: relative;
 }
 .service-number{
 	font-family: 'mont-bold';
@@ -102,13 +105,16 @@ header nav li:first-child a{
 	color: #F9F3DB;
 }
 .active{
-	border: 2px solid #FFFFFF;
+	border: 2px solid #FFFFFF;	
 }
-div .line-container .service-line .active:before{
+.service-line.active:before{
 	content: "";
 	border: 2px solid #F38181;
-	width: 20%;
+	width: 30%;
 	display: block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
 }
 .highlight{
 	color: #FFFFFF;
