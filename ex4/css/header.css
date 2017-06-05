@@ -1,0 +1,115 @@
+.banner-container{
+	background-image: url(images/banner.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.title-small{
+	margin-top: 20px;
+    display: inline-block;
+    margin-right: 450px;
+}
+.mogo{
+	font-family: 'mont-bold';
+	font-size: 30px;
+	color: #F9F3DC;
+	text-align: left;
+}
+header nav{
+	text-align: right;
+    display: inline-block;
+}
+header nav ul{
+	list-style-type: none;
+}
+header nav ul li{
+	display: inline-block;
+	margin-right: 55px;
+}
+header nav a{
+	color: #F9F3DC;
+	font-family: 'mont-regular';
+	font-size: 14px;
+}
+header nav li:first-child a{
+	color: #FCE38A;
+    border-bottom: 2px solid #FCE38A;
+    padding-bottom: 10px;
+}
+.template{
+	font-family: 'kaushan-regular';
+    font-size: 72px;
+    color: #F9F3DC;
+    margin-top: 170px;
+    margin-bottom: 30px;
+}
+.welcome{
+	font-family: 'mont-bold';
+	font-size: 150px;
+	color: #F9F3DC;
+}
+.to-mogo{
+	font-family: 'mont-bold';
+	font-size: 150px;
+	color: #F9F3DC;
+}
+.line{
+	width: 70px;    
+    display: inline-block;
+}
+.banner-line{
+	border: 2px solid #F9F3DC;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.learn-more{
+	border: 3px solid #F9F3DC;
+    display: table;
+    text-align: center;
+    padding: 10px 35px;
+    margin: auto;
+    font-family: 'mont-bold';
+    font-size: 14px;
+    color: #F9F3DC;
+    cursor: pointer;
+}
+.header-icon{
+	color: #F9F3DC;
+}
+.line-container {
+	margin-top: 155px;
+	padding-bottom: 25px;
+}
+.service{
+	text-align: left;
+	margin-top: 25px;
+}
+.service-line{
+    border: 2px solid #F6EAC5;
+    display: block;
+    width: 100%;
+}
+.service-number{
+	font-family: 'mont-bold';
+	font-size: 24px;
+	color: #F9F3DB;
+	margin-right: 5px;
+}
+.service-info{
+	font-family: 'mont-regular';
+	font-size: 18px;
+	color: #F9F3DB;
+}
+.active{
+	border: 2px solid #FFFFFF;
+}
+div .line-container .service-line .active:before{
+	content: "";
+	border: 2px solid #F38181;
+	width: 20%;
+	display: block;
+}
+.highlight{
+	color: #FFFFFF;
+}

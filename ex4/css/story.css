@@ -1,0 +1,56 @@
+.story-container{
+	margin-top: 90px;
+}
+.work{
+	font-family: 'kaushan-regular';
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.story{
+	font-family: 'mont-bold';
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.story-line{
+    margin-bottom: 35px;
+    border: 2px solid #F38181;
+}
+p{
+	font-family: 'roboto-regular';
+	color: #999999;
+	font-size: 15px;
+}
+.story-images{
+	margin-top: 100px;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.gradient-image{
+	background-image: url(images/story1.jpg);
+	left: 0px;
+    top: 0px;
+    padding-top: 100px;
+    background: linear-gradient(to bottom, #e88182 0%,#e68282 6%,#e88484 6%,#e88781 11%,#e99185 22%,#ea9483 28%,#eb9984 30%,#eaa885 47%,#edaf86 51%,#ebb285 55%,#edb487 56%,#edc588 74%,#f0c88a 74%,#f1ca89 76%,#efce87 83%,#f1d188 85%,#eed98a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e88182', endColorstr='#eed98a',GradientType=0 ); /* IE6-9 */
+}
+.super-team{
+    font-family: 'mont-bold';
+    color: #F9F3DC;
+    font-size: 18px;
+    padding-bottom: 95px;
+}
+.fa-users{
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+.blank-block{
+	background-color: #95E1D4;
+	z-index: -1;
+	width: 360px;
+	height: 236px;
+	position: absolute;
+	left: 15px;
+    top: 0px;
+}
