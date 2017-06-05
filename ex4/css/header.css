@@ -32,10 +32,11 @@ header nav a{
 	font-family: 'mont-regular';
 	font-size: 14px;
 }
-header nav li:first-child a{
+a:hover{
 	color: #FCE38A;
-    border-bottom: 2px solid #FCE38A;
-    padding-bottom: 10px;
+	border-bottom: 2px solid #FCE38A;
+	padding-bottom: 10px;
+	text-decoration: none;
 }
 .template{
 	font-family: 'kaushan-regular';
