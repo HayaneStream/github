@@ -1,0 +1,34 @@
+.block-service{
+	margin-top: 105px;
+}
+.block-ads{
+	text-transform: uppercase;
+	font-family: 'mont-regular';
+	font-size: 14px;
+}
+.block-number{
+	font-size: 72px;
+	font-family: 'mont-bold';
+	margin-bottom: 15px;
+}
+.block-list {
+	color: white;
+	background: #95E1D4;
+	text-align: center;
+}
+.block-list li {
+	display: inline-block;
+	width: 230px;
+	border-right: 1px solid white;
+	padding-top: 70px;
+	padding-bottom: 90px;
+}
+.block-list li:first-child {
+	border-left: 1px solid white;
+}
+.block-list li span {
+	display: block;
+}
+.block-list li:hover{
+	background: blue;
+}

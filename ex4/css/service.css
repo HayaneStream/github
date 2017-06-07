@@ -1,0 +1,34 @@
+.service-container{
+	margin-top: 110px;
+}
+.service-block{
+	margin-top: 35px;
+}
+.services .service-icons {
+  color: #95E1D4;
+  font-size: 30px;
+  float: left;
+}
+.service-right .services-txt {
+	display: block;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'mont-regular';
+	margin-bottom: 15px;
+}
+.service-right{
+	text-align: left;
+}
+.service-right {
+	overflow: hidden;
+	padding-left: 30px;
+}
+.seperator-line{
+	display: inline-block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin-top: 50px;
+    margin-bottom: 45px;
+    width: 100%
+}

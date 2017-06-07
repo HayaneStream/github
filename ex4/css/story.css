@@ -5,13 +5,15 @@
 	font-family: 'kaushan-regular';
     font-size: 24px;
     margin-bottom: 10px;
+    text-align: center;
 }
 .block-intro2{
 	font-family: 'mont-bold';
     font-size: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
+    text-align: center;
 }
-.story-line{
+.intro-line{
     margin-bottom: 35px;
     border: 2px solid #F38181;
 }

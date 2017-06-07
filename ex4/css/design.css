@@ -1,0 +1,11 @@
+.design-container{
+	background-image: url(images/background1.jpg);
+	width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 125px;
+    padding-top: 110px;
+}
+.design-image{
+    margin-left: 145px;
+    margin-top: 17px;
+}

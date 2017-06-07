@@ -76,6 +76,9 @@ a:hover{
     color: #F9F3DC;
     cursor: pointer;
 }
+.btn-learn-more:hover{
+    background: #e84644;
+}
 .header-icon{
 	color: #F9F3DC;
 	cursor: pointer;
