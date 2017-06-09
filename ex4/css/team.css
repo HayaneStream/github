@@ -1,0 +1,35 @@
+.team-container{
+	margin-top: 150px;
+}
+.icon-list{
+	list-style-type: none;
+    display: -webkit-inline-box;
+    padding-bottom: 178px;
+}
+.icon-list li{
+	border-left: 1px solid #F38181;
+    background: #FCE389;
+    font-size: 30px;
+    padding: 10px;
+    width: 55px;
+    color: #F38181;
+}
+.icon-list li:first-child {
+	border-left: none;
+}
+.icon-list li:hover{
+	color: #FFFFFF;
+	background: #F38181;
+	transition: all .2s ease-in-out;
+}
+.member-name{
+	display: block;
+    font-family: 'mont-regular';
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.member-job{
+	font-family: 'roboto-lightitalic';
+    font-size: 15px;
+}

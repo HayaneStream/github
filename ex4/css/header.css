@@ -37,6 +37,7 @@ a:hover{
 	border-bottom: 2px solid #FCE38A;
 	padding-bottom: 10px;
 	text-decoration: none;
+	transition: all .2s ease-in-out;
 }
 .template{
 	font-family: 'kaushan-regular';
@@ -58,10 +59,11 @@ a:hover{
 }
 .line{
 	width: 70px;    
+	height: 4px;
     display: inline-block;
 }
 .banner-line{
-	border: 2px solid #F9F3DC;
+	background: #F9F3DC;
     margin-top: 60px;
     margin-bottom: 50px;
 }
@@ -78,6 +80,7 @@ a:hover{
 }
 .btn-learn-more:hover{
     background: #e84644;
+    transition: all .2s ease-in-out;
 }
 .header-icon{
 	color: #F9F3DC;
@@ -92,7 +95,8 @@ a:hover{
 	margin-top: 25px;
 }
 .service-line{
-    border: 2px solid #F6EAC5;
+    height: 4px;
+    background: #F6EAC5;
     display: block;
     width: 100%;
     position: relative;
@@ -109,7 +113,8 @@ a:hover{
 	color: #F9F3DB;
 }
 .active{
-	border: 2px solid #FFFFFF;	
+	height: 4px; 
+	background: #FFFFFF;	
 }
 .service-line.active:before{
 	content: "";

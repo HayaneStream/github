@@ -1,4 +1,4 @@
-.block-service{
+.article-block-service{
 	margin-top: 105px;
 }
 .block-ads{
@@ -22,6 +22,7 @@
 	border-right: 1px solid white;
 	padding-top: 70px;
 	padding-bottom: 90px;
+	margin-right: -4px;
 }
 .block-list li:first-child {
 	border-left: 1px solid white;
@@ -30,5 +31,6 @@
 	display: block;
 }
 .block-list li:hover{
-	background: blue;
+	background: rgb(0, 206, 188);
+	transition: all .2s ease-in-out;
 }
