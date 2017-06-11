@@ -1,0 +1,94 @@
+.footer-title{
+    font-family: 'mont-bold';
+    font-size: 42px;
+    color: #d3d3d3;
+    margin-bottom: 20px;
+}
+.mogo-followers{
+	margin-top: 40px;
+}
+.followers-number{
+    font-family: 'mont-bold';
+    font-size: 18px;
+}
+.user{
+    font-family: 'mont-regular';
+    font-size: 14px;
+}
+.subscribe-line{
+    margin: 15px 0px;
+}
+.follow-text{
+    font-family: 'roboto-lightitalic';
+    font-size: 15px;
+    margin-right: 10px;
+}
+.follow-icon{
+    display: inline;
+    color: #95E1D4;
+    font-size: 17px;
+    margin: 0px 5px;
+    transition: all .2s ease-in-out;
+}
+.follow-icon:hover{
+    color: #F38181;
+}
+.email-form{
+	margin-top: 30px;
+}
+input{
+	border-radius: 1px;
+}
+.footer-blog-image{
+	overflow: hidden;
+    margin-bottom: 25px;
+    margin-top: 27px;
+}
+.footer-image.text{
+	overflow: hidden;
+    padding-left: 25px;
+    margin-top: 20px;
+}
+.img-information{
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'mont-regular';
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.date{
+    font-family: 'roboto-lightitalic';
+    font-size: 13px;
+}
+.email-input{
+	border-radius: 1px;
+    font-family: 'roboto-lightitalic';
+}
+.btn-subscribe{
+    padding: 6px 30px;
+    color: #ffffff;
+    background: #95E1D4;
+    font-family: 'mont-bold';
+    border-radius: 1px;
+    transition: all .2s ease-in-out;
+}
+.btn-subscribe:hover{
+	background: rgb(0, 206, 188);
+}
+.image-block{
+	margin-top: 25px;
+}
+.footer-line{
+	margin-top: 35px;
+    margin-bottom: 30px;
+}
+.footer-text{
+    text-align: center;
+    display: block;
+    font-family: 'mont-regular';
+    font-size: 14px;
+}
+.developer{
+    font-family: 'mont-regular';
+    color: #F17373;
+}

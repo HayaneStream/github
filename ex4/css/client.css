@@ -1,0 +1,22 @@
+.article-client-block{
+	background-image: url(images/background2.jpg);
+	width: 100%;
+    background-repeat: no-repeat;
+    padding-top: 110px;
+    margin-bottom: 120px;
+}
+.first-row{
+	margin-bottom: 80px;
+}
+.second-row{
+	padding-bottom: 150px;
+}
+.client-line{
+	background: #F38181;
+	margin: 15px 0px;
+}
+.client-profile{
+	text-align: left;
+	overflow: hidden;
+	padding-left: 30px;
+}

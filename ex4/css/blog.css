@@ -1,0 +1,49 @@
+.blog-container{
+	margin-bottom: 100px;
+}
+.article-blog-content{
+	text-align: left;
+}
+.blog-text{
+	margin-top: 10px;
+}
+.intro-text{
+	font-family: 'mont-bold';
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    display: block;
+}
+.blog-line{
+	margin-top: 15px;
+    margin-bottom: 17px;
+}
+.blog-icon{
+	color: #95E1D4;
+    font-size: 15px;
+}
+.time{
+	position: absolute;
+    left: 5px;
+    top: 150px;
+    color: white;
+    background-color: #95E1D4;
+    padding: 10px 15px;
+    text-align: center;
+}
+.time li {
+    list-style-type: none;
+}
+.day {
+    font-size: 30px;
+}
+.month {
+    display: block;
+    font-family: 'roboto-lightitalic';
+}
+.number{
+	margin-left: 5px;
+    margin-right: 20px;
+    font-size: 15px;
+	color: #808080;
+}

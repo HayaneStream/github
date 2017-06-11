@@ -1,3 +1,6 @@
+.service-container{
+	margin-bottom: 100px;
+}
 .service-photography{
 	margin-top: 95px;
 }
@@ -9,13 +12,12 @@
 	font-size: 14px;
     font-family: 'mont-regular';
     display: inline-block;
-    margin-top: 8px;
     margin-left: 10px;
 }
 .block-icon .icon-photography{
 	color: #95E1D4;
     font-size: 30px;
-    float: left;
+    vertical-align: middle;
 }
 .text-photography{
 	font-family: 'roboto-lightitalic';
@@ -29,6 +31,5 @@
 }
 .block-photography{
 	border: 1px solid #F0F0F0;
-    padding-top: 10px;
-    padding-bottom: 15px;
+    padding: 10px 0px;
 }
