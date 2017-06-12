@@ -40,14 +40,14 @@ a:hover{
 	padding-bottom: 10px;
 	text-decoration: none;
 }
-.template{
+.banner-template{
 	font-family: 'kaushan-regular';
     font-size: 72px;
     color: #F9F3DC;
     margin-top: 170px;
     margin-bottom: 30px;
 }
-.title-welcome{
+.banner-title{
 	font-family: 'mont-bold';
 	font-size: 150px;
 	color: #F9F3DC;
@@ -128,4 +128,7 @@ a:hover{
 }
 .highlight{
 	color: #FFFFFF;
+}
+img{
+	vertical-align: middle;
 }

@@ -2,8 +2,12 @@
 	margin-bottom: 150px;
 }
 .no-gutter > [class*='col-'] {
-    padding-right:0;
-    padding-left:0;
+    padding-right: 0;
+    padding-left: 0;
+}
+.row.no-gutter{
+	margin-right: 0;
+	margin-left: 0;
 }
 .gradient-image-text{
 	font-size: 15px;
@@ -11,7 +15,13 @@
 }
 .design-text{
 	text-align: center;
-	padding: 107px 0px;
 }
-
-
+.block-images{
+	position: relative;
+	transition: all .2s ease-in-out;
+}
+.block-images:hover{
+    background: linear-gradient(to bottom, #e88182 0%,#e68282 6%,#e88484 6%,#e88781 11%,#e99185 22%,#ea9483 28%,#eb9984 30%,#eaa885 47%,#edaf86 51%,#ebb285 55%,#edb487 56%,#edc588 74%,#f0c88a 74%,#f1ca89 76%,#efce87 83%,#f1d188 85%,#eed98a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e88182', endColorstr='#eed98a',GradientType=0 ); /* IE6-9 */
+    opacity: 0.7;
+}

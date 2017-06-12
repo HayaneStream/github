@@ -29,6 +29,7 @@
     font-size: 17px;
     margin: 0px 5px;
     transition: all .2s ease-in-out;
+    cursor: pointer;
 }
 .follow-icon:hover{
     color: #F38181;
@@ -55,10 +56,18 @@ input{
     font-family: 'mont-regular';
     font-size: 12px;
     text-transform: uppercase;
+    color: #333;
+}
+.img-information:hover{
+    color: #337ab7;
 }
 .date{
     font-family: 'roboto-lightitalic';
     font-size: 13px;
+    color: #d3d3d3;
+}
+.date:hover{
+	color: #337ab7;
 }
 .email-input{
 	border-radius: 1px;
@@ -71,6 +80,7 @@ input{
     font-family: 'mont-bold';
     border-radius: 1px;
     transition: all .2s ease-in-out;
+    cursor: pointer;
 }
 .btn-subscribe:hover{
 	background: rgb(0, 206, 188);
