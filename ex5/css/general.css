@@ -1,0 +1,31 @@
+body {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #828282;
+  background: #fff;
+}
+
+a {
+  color: #2D6CDF;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+a:hover, a:active, a:focus {
+  color: #2D6CDF;
+  outline: none;
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, figure {
+  color: #000;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
