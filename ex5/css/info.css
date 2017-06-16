@@ -1,0 +1,23 @@
+.info-container{
+    width: 100%;
+    background: #212C46;
+    padding-bottom: 130px;
+    margin-bottom: 100px;
+}
+.info-icon{
+    color: #ffffff;
+    font-size: 40px;
+    padding-top: 100px;
+}
+.info-number{
+    color: #ffffff;
+    display: block;
+    font-size: 45px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.info-text{
+    display: block;
+    color: #C1C4CC;
+    font-size: 20px;
+}

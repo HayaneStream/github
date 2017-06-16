@@ -1,0 +1,38 @@
+.category-container{
+	margin-bottom: 80px;
+}
+.intro-title{
+
+}
+.intro-line{
+	height: 1px;
+    background: #EDEDED;
+    display: inline-block;
+    width: 70px;
+    margin-bottom: 15px;
+}
+.category-content{
+	margin-top: 60px;
+}
+.category-service{
+	margin-bottom: 50px;
+}
+.category-icon .glyphicon{
+	border: 1px solid #F5F5F5;
+	background: #F5F5F5;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 25px;
+    color: #000000;
+    transition: all .2s ease-in-out;
+}
+.category-icon .glyphicon:hover{
+	color: #FFFFFF;
+    background: #F38181;
+}
+.category-course{
+	display: block;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}

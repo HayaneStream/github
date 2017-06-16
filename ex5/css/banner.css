@@ -1,0 +1,43 @@
+.banner-container{
+	background-image: url(images/img_bg_1.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 180px;
+    margin-bottom: 100px;
+}
+.banner-title{
+    color: #ffffff;
+    padding-top: 200px;
+    font-family: "Source Sans Pro";
+}
+.banner-intro{
+    color: #ffffff;
+    display: block;
+    font-size: 21px;
+}
+.link{
+	color: #A19A96;
+}
+.btn{
+	display: table;
+	font-weight: bold;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+.start-button{
+	border: 1px solid #2D6CDF;
+    border-radius: 30px;
+    color: #ffffff;
+    background: #2D6CDF;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 35px;
+}
+.start-button:hover{
+    background: #F38181;
+    border: 1px solid #F38181;
+}
