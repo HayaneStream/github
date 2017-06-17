@@ -1,0 +1,48 @@
+.register-container{
+	background-image: url(images/img_bg_2.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.register-intro{
+	color: white;
+}
+.register-time{
+	border: 2px solid white;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    padding-top: 10px;
+    display: inline-block;
+    margin: 5px;
+    margin-top: 20px;
+    background: #3B4139;
+    color: white;
+}
+.register-timeleft{
+    display: block;
+    font-size: 40px;
+}
+.time{
+	font-weight: bold;
+	font-size: 12px;
+}
+.register-limited{
+	color: white;
+	display: block;
+	font-weight: bold;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.register-button{
+    border: 2px solid white;
+    padding: 15px 40px;
+    color: white;
+}
+.register-button:hover{
+    background: #e84644;
+    color: white;
+}

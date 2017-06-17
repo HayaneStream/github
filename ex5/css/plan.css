@@ -1,0 +1,53 @@
+.article-plan-container{
+	background: #E8E8E8;
+	width: 100%;
+	padding-top: 100px;
+    padding-bottom: 130px;
+}
+.plan-content{
+	background: white;
+	padding-bottom: 30px;
+	margin-top: 70px;
+}
+.plan-choice{
+	padding-top: 20px;
+}
+.plan-prices{
+	background: #F7F7F7;
+}
+.currency{
+	font-size: 20px;
+    color: black;
+    position: absolute;
+    top: 150px;
+}
+.number{
+	font-size: 50px;
+    color: black;
+    margin-left: 10px;
+}
+.plan-content ul{
+	list-style-type: none;
+    padding-left: 0;
+    color: #989898;
+}
+.plan-content ul li{
+	margin: 10px;
+}
+.plan-content ul li:first-child{
+    margin-top: 30px;
+}
+.plan-content ul li:last-child{
+    margin-bottom: 40px;
+}
+.plan-button{
+	border: 2px solid black;
+    display: inline-block;
+    color: black;
+    padding: 15px 80px;
+}
+.plan-button:hover{
+	background: rgb(0, 206, 188);
+	border: 2px solid rgb(0, 206, 188);
+	color: white;
+}

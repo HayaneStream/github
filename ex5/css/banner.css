@@ -21,10 +21,10 @@
 	color: #A19A96;
 }
 .btn{
-	display: table;
 	font-weight: bold;
     transition: all .2s ease-in-out;
     cursor: pointer;
+    border-radius: 1px;
 }
 .start-button{
 	border: 1px solid #2D6CDF;

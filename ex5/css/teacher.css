@@ -4,19 +4,27 @@
     background-position: center;
     background: #1D4363;
     padding-bottom: 100px;
+    margin-bottom: 100px;
 }
 .title-intro{
 	color: #ffffff;
 	padding-top: 100px;
 	position: relative;
 }
-.title-intro:before{
+.title-intro span:before,
+.title-intro span:after{
 	content: "";
-    border: 1px solid #ffffff;
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
+    height: 1px;
+    display: inline-block;
+    width: 50px;
+    background: white;
+    vertical-align: middle;
+}
+.title-intro span:before{
+	margin-right: 15px;
+}
+.title-intro span:after{
+	margin-left: 15px;
 }
 .teacher-image{
 	width: 90px;
