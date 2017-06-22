@@ -1,0 +1,41 @@
+.work-container {
+	margin-bottom: 100px;
+}
+.separator-line {
+	height: 2px;
+  background: #FCC72C;
+  display: inline-block;
+  width: 10%;
+}
+.selected-images {
+	margin-top: 60px;
+}
+.image-row {
+	margin-bottom: 30px;
+}
+.overlay-images {
+  border-radius: 10px;
+  position: relative;
+}
+.overlay-layer {
+	position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overlay-text {
+	color: white;
+	z-index: 1;
+	display: none;
+}
+.overlay-layer:hover .overlay-text {
+	display: block;
+}
+img {
+	width: 100%;
+	height: auto;
+}

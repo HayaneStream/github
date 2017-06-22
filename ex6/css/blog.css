@@ -1,0 +1,28 @@
+.blog-container {
+	background-color: #F5F5F5;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.blog-content {
+	margin-top: 70px;
+}
+.blog-info {
+	text-align: left;
+}
+.blog-intro {
+	margin-bottom: 20px;
+  margin-top: 25px;
+}
+.blog-admin {
+	font-style: italic;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.blog-comment {
+	font-style: italic;
+  display: inline-block;
+  float: right;
+}
+.blog-comment .glyphicon {
+  color: #FCC72C;
+}
