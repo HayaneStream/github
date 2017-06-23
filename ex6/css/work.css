@@ -1,11 +1,21 @@
 .work-container {
 	margin-bottom: 100px;
 }
-.separator-line {
-	height: 2px;
+.work-block {
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+}
+.work-block:hover .guardian__work {
+	opacity: 1;
+	visibility: visible;
+}
+.block-intro:after {
+  height: 2px;
   background: #FCC72C;
   display: inline-block;
   width: 10%;
+  content: "";
 }
 .selected-images {
 	margin-top: 60px;
@@ -28,6 +38,11 @@
   align-items: center;
   justify-content: center;
   z-index: 5;
+  flex-direction: column;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.42);
+  visibility: hidden;
+  transition: all 0.2s linear;
 }
 .overlay-text {
 	color: white;
