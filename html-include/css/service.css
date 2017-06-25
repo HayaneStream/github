@@ -1,0 +1,24 @@
+.service-container {
+	background-color: #F5F5F5;
+	width: 100%;
+	padding-top: 150px;
+	padding-bottom: 120px;
+	margin-bottom: 150px;
+}
+.service-list {
+	margin-top: 50px;
+}
+.service-row {
+	margin-bottom: 40px;
+}
+.service-icon .glyphicon {
+	color: #FCC72C;
+  font-size: 50px;
+  transition: all .2s ease-in-out;
+}
+.service-intro {
+	margin-top: 25px;
+}
+.service-content:hover .glyphicon {
+	color: #F38181;
+}

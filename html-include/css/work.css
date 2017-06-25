@@ -1,0 +1,54 @@
+.work-container {
+	margin-bottom: 100px;
+}
+.work-block {
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+}
+.work-block:hover .guardian__work {
+	opacity: 1;
+	visibility: visible;
+}
+.block-intro:after {
+  height: 2px;
+  background: #FCC72C;
+  display: inline-block;
+  width: 10%;
+  content: "";
+}
+.selected-images {
+	margin-top: 60px;
+}
+.image-row {
+	margin-bottom: 30px;
+}
+.overlay-images {
+  border-radius: 10px;
+  position: relative;
+  z-index: 0;
+}
+.overlay-layer {
+	position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  flex-direction: column;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.42);
+  visibility: hidden;
+  transition: all 0.2s linear;
+}
+.overlay-text {
+	color: white;
+	z-index: 1;
+}
+img {
+	width: 100%;
+	height: auto;
+}
