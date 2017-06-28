@@ -5,8 +5,7 @@
   background-size: cover;
   background-position: center;
   padding-top: 30px;
-  padding-bottom: 200px;
-  margin-bottom: 100px;
+  padding-bottom: 250px;
 }
 .header-logo {
 	text-align: left;
@@ -16,15 +15,15 @@
 .bold-text {
 	font-weight: bold;
 }
-header nav {
+header .main-navigation {
   display: inline-block;
   float: right;
 }
-header nav a {
+header .main-navigation a {
   color: white;
   margin-left: 30px;
 }
-header nav a:hover {
+header .main-navigation a:hover {
 	color: #FCC72C;
 	transition: all .2s ease-in-out;
 }

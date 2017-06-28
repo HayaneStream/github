@@ -3,6 +3,9 @@
   padding-top: 150px;
   padding-bottom: 150px;
 }
+.second-blog {
+  padding-top: 0px;
+}
 .blog-content {
 	margin-top: 70px;
 }
@@ -25,4 +28,7 @@
 }
 .blog-comment .glyphicon {
   color: #FCC72C;
+}
+.blog-link a {
+  color: white;
 }

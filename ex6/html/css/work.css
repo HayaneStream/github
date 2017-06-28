@@ -1,5 +1,6 @@
 .work-container {
 	margin-bottom: 100px;
+  padding-top: 100px;
 }
 .work-block {
 	position: relative;
@@ -47,10 +48,6 @@
 .overlay-text {
 	color: white;
 	z-index: 1;
-	display: none;
-}
-.overlay-layer:hover .overlay-text {
-	display: block;
 }
 img {
 	width: 100%;
