@@ -1,17 +1,21 @@
-.address-container {
+.address__container {
 	margin-bottom: 120px;
+	margin-top: 70px;
 }
-.address-list {
+.address__list {
 	list-style-type: none;
 	padding-left: 0;
 }
-.address-list .fa {
+.address__list .fa {
 	margin-right: 15px;
 }
-.input-group {
+.address__input-group {
 	width: 100%;
 }
 .message-input {
 	margin-top: 30px;
 	margin-bottom: 40px;
+}
+textarea {
+	resize: none;
 }

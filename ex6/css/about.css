@@ -1,11 +1,8 @@
-.about-container {
+.about__container {
   margin-bottom: 100px;
   padding-top: 100px;
 }
-.block-image {
+.about__block-image {
 	margin-top: 70px;
   margin-bottom: 90px;
-}
-.bottom-intro {
-	text-align: left;
 }

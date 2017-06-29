@@ -1,4 +1,4 @@
-.blog-container {
+.blog__container {
 	background-color: #F5F5F5;
   padding-top: 150px;
   padding-bottom: 150px;
@@ -6,29 +6,29 @@
 .second-blog {
   padding-top: 0px;
 }
-.blog-content {
+.blog__content {
 	margin-top: 70px;
 }
-.blog-info {
+.blog__info {
 	text-align: left;
 }
-.blog-intro {
+.blog__intro {
 	margin-bottom: 20px;
   margin-top: 25px;
 }
-.blog-admin {
+.blog__admin {
 	font-style: italic;
   display: inline-block;
   margin-bottom: 15px;
 }
-.blog-comment {
+.blog__comment {
 	font-style: italic;
   display: inline-block;
   float: right;
 }
-.blog-comment .glyphicon {
+.blog__comment .glyphicon {
   color: #FCC72C;
 }
-.blog-link a {
+.blog__link a {
   color: white;
 }

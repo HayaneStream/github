@@ -1,7 +1,7 @@
-.user-container {
+.user__container {
 	padding-bottom: 100px;
 }
-.user-comment {	
+.user__comment {	
   position: relative;
   margin-top: 60px;
   padding: 50px;
@@ -9,10 +9,10 @@
   border: 1px solid #ccc;
   transition: box-shadow 0.2s linear;
 }
-.user-comment:hover {
+.user__comment:hover {
   box-shadow: 0px 10px 13px 0px rgba(0,0,0,0.5);
 }
-.user-image {
+.user__image {
 	width: 6%;
   position: absolute;
   top: -30px;

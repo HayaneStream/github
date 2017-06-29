@@ -1,5 +1,5 @@
-.banner {
-	background-image: url(images/home-image.jpg);
+.banner__banner {
+	background-image: url(../images/home-image.jpg);
 	width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,7 +7,7 @@
   padding-top: 30px;
   padding-bottom: 250px;
 }
-.header-logo {
+.banner__header-logo {
 	text-align: left;
   display: inline-block;
   color: white;
@@ -27,20 +27,20 @@ header .main-navigation a:hover {
 	color: #FCC72C;
 	transition: all .2s ease-in-out;
 }
-.banner-title {
+.banner__title {
   text-align: center;
   margin-bottom: 15px;
   color: white;
   margin-top: 200px;
 }
-.banner-intro {
+.banner__intro {
   text-align: center;
   color: white;
 }
-.banner-intro a {
+.banner__intro a {
 	color: #FCC72C;
 }
-.banner-intro a:hover {
+.banner__intro a:hover {
 	color: white;
 	border-bottom: 1px solid white;
 	padding-bottom: 5px;
@@ -50,16 +50,16 @@ header .main-navigation a:hover {
 	color: white;
 	transition: all .2s ease-in-out;
 }
-.banner-button {
+.btn:hover {
+  color: white;
+  font-weight: bold;
+  background: #2D6CDF;
+}
+.banner__button {
 	display: flex;
   align-items: center;
   justify-content: center;
   margin: auto;
   width: 240px;
   height: 45px;
-}
-.btn:hover {
-	color: white;
-	font-weight: bold;
-	background: #2D6CDF;
 }

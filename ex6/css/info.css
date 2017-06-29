@@ -1,15 +1,15 @@
-.info-container {
+.info__container {
 	padding-bottom: 90px;
 	padding-top: 30px;
 }
-.service-number {
+.info__service-number {
 	font-style: italic;
   color: #1FB5F6;
   border-top: 2px solid #1FB5F6;
   width: 4%;
   padding-top: 5px;
 }
-.info-icon {
+.info__icon {
 	font-size: 180px;
 	display: flex;
   justify-content: center;
@@ -18,9 +18,9 @@
   padding-top: 30px;
   transition: all .2s ease-in-out;
 }
-.service-info:hover .info-icon {
+.info__service-info:hover .info__icon {
   color: #F38181;
 }
-.service-info {
+.info__service-info {
 	margin-top: 80px;
 }
