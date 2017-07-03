@@ -1,0 +1,32 @@
+.display__container {
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+.display__image {
+	width: 50%;
+  margin-left: 260px;
+  margin-bottom: 30px;
+}
+.display__content {
+	margin-top: 70px;
+}
+.display__service {
+	text-align: center;
+}
+.display__icon .fa {
+	border: 1px solid #F5F5F5;
+  border-radius: 50%;
+  font-size: 35px;
+  padding: 25px;
+  color: #8dc63f;
+  background: #E6F2D4;
+  transition: all .2s ease-in-out;
+}
+.display__service:hover .fa {
+	color: #FFFFFF;
+  background: #F38181;
+}
+.display__service-title {
+	margin-top: 25px;
+  margin-bottom: 10px;
+}

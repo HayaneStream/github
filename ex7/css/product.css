@@ -1,0 +1,41 @@
+.product__article {
+	background: #F9F9F9;
+  padding-top: 70px;
+  padding-bottom: 110px;
+}
+.title__intro {
+	text-align: center;
+}
+img {
+	width: 100%;
+}
+.product__content {
+	margin-top: 70px;
+	text-align: center;
+}
+.product__row {
+  margin-bottom: 35px;
+}
+.product__service {
+	transition: box-shadow 0.2s linear;
+	box-shadow: 0px 3px 13px 0px rgba(0,0,0,0.5);
+	border-radius: 10px
+}
+
+.product__images {
+	border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.product__info {
+	background: white;
+  padding-bottom: 1px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.product__bold-title {
+	display: block;
+  font-weight: bold;
+  color: black;
+  padding-top: 20px;
+  margin-bottom: 5px;
+}

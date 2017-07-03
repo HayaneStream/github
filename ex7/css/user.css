@@ -1,0 +1,11 @@
+.user__block {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.user__quote {
+	font-size: 18px;
+  margin: 0px 360px;
+}
+.user__name {
+	margin-top: 40px;
+}

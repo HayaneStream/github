@@ -1,0 +1,40 @@
+.footer__container {
+	padding-top: 100px;
+}
+.footer__container a {
+	color: #85919d;
+	transition: all .2s ease-in-out;
+	margin-right: 10px;
+}
+.footer__container a:hover {
+	color: #8dc63f;
+}
+.footer__container .fa {
+	transition: all .2s ease-in-out;
+	margin-right: 10px;
+}
+.footer__container .fa:hover {
+	color: #8dc63f;
+}
+.footer__title {
+	display: block;
+	color: black;
+	font-weight: bold;
+}
+.footer__link {
+	list-style-type: none;
+	padding-left: 0
+}
+.footer__link li {
+	margin-bottom: 5px;
+}
+.footer__text {
+	display: inline-block;
+	margin-top: 100px;
+}
+.footer__text span {
+	font-weight: bold;
+}
+.right-text {
+	margin-left: 390px;
+}

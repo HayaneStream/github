@@ -1,0 +1,28 @@
+.feature__article {
+	background: #F9F9F9;
+	padding-top: 110px;
+	padding-bottom: 80px;
+	overflow: hidden;
+}
+.feature__service {
+	margin-bottom: 20px;
+}
+.feature__service .fa {
+	float: left;
+  font-size: 35px;
+  color: #8dc63f;
+}
+.feature__info {
+	overflow: hidden;
+	padding-left: 30px;
+}
+.feature__info-title {
+	margin-bottom: 10px;
+}
+.feature__button {
+	padding: 15px 25px;
+  margin-left: 60px;
+}
+.feature__macbook {
+	width: initial;
+}

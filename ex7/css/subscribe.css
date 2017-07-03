@@ -1,0 +1,29 @@
+.subscribe__block {
+	background: #F9F9F9;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+.subscribe__container h3 {
+	padding-top: 8px;
+  margin-bottom: 0px;
+}
+.subscribe__email-form {
+	position: relative;
+  width: 80%;
+}
+.input-group .glyphicon {
+	position: absolute;
+  top: 3px;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  z-index: 5;
+}
+.subscribe__email-input {
+	padding-left: 35px;
+  background: #EDEDED;
+}
+.subscribe__send-button {
+	padding-left: 40px;
+	padding-right: 40px;
+}

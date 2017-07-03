@@ -1,0 +1,73 @@
+.banner__banner {
+	background-image: url(../images/full_image_1.jpg);
+	width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.banner__header-wrapper {
+	display: -webkit-inline-box;
+}
+.banner__header-logo {
+	margin-left: 335px;
+  margin-right: 420px;
+  color: white;
+}
+.banner__bold-point {
+	color: #8DC63F;
+}
+.main__navigation {
+  display: -webkit-inline-box;
+  transition: all .2s ease-in-out;
+}
+.main__navigation a {
+	margin-right: 15px;
+	color: #B5AFAE;
+}
+.main__navigation a:hover {
+	color: #8DC63F;
+}
+.banner__button-signup {
+	transition: all .2s ease-in-out;
+}
+.banner__button-signup:hover {
+  background: #841dc3;
+}
+.banner__button-signup a {
+	margin-right: 0px;
+  border: 2px solid #B5AFAE;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+.banner__title {
+	margin-top: 140px;
+	color: white;
+}
+.btn {
+  transition: all .2s ease-in-out;
+  background: #8dc63f;
+  color: white;
+}
+.btn a {
+  color: white;
+}
+.btn:hover {
+  color: white;
+  background: #2D6CDF;
+}
+.banner__button-watch {
+	background: transparent;
+  padding: 15px 35px;
+  border: 1px solid white;
+}
+.banner__button-visit {
+	padding: 15px 30px;
+}
+.banner__explore {
+	text-align: center;
+	color: #B5AFAE;
+	display: block;
+	margin-top: 150px;
+}
