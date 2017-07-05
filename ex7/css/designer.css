@@ -1,0 +1,31 @@
+.designer__container {
+	padding-top: 120px;
+	padding-bottom: 100px;
+}
+.designer__intro {
+	margin-bottom: 130px;
+}
+.designer__profile {
+	text-align: center;
+}
+.designer__profile h3 {
+	margin-bottom: 0px;
+	margin-top: 30px;
+}
+.designer__profile span {
+	display: block;
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+.designer__link {
+	text-align: center;
+	margin-top: 20px;
+}
+.designer__link a {
+	color: #B3B3B3;
+  margin: 0px 10px;
+  font-size: 25px;
+}
+.designer__link a:hover {
+  color: #8dc63f;
+}

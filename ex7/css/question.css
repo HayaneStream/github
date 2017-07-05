@@ -1,0 +1,24 @@
+.question__block {
+	padding-top: 120px;
+}
+.question__block:after {
+	content: '';
+  height: 2px;
+  background: lightgray;
+  width: 100%;
+  margin-top: 90px;
+  display: inline-block;
+}
+.question__list {
+	margin-top: 150px;
+}
+.question__list ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+.question__list ul li {
+	margin-bottom: 50px;
+}
+.question__list ul li h3 {
+	margin-bottom: 15px;
+}

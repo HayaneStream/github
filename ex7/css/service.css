@@ -1,0 +1,78 @@
+.service__article {
+	background: #F9F9F9;
+	padding-top: 100px;
+	padding-bottom: 120px
+}
+.service__content {
+  background: white;
+  padding-top: 30px;
+  border: 2px solid lightgray;
+  padding-bottom: 30px;
+  transition: all .1s ease-in-out;
+}
+.service__content:hover {
+	border: 2px solid #8dc63f;
+}
+.service__value {
+	position: absolute;
+  left: 0;
+  right: 0;
+  top: -20px;
+  border: 1px solid transparent;
+  background: #8dc63f;
+  color: white;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 4px;
+  visibility: hidden;
+  transition: all .1s linear;
+}
+.service__content:hover .service__value {
+	visibility: visible;
+}
+.service__currency {
+  font-size: 20px;
+  color: black;
+  position: absolute;
+  top: 71px;
+}
+.service__number {
+  font-size: 60px;
+  color: black;
+  margin-left: 10px;
+}
+.service__month {
+  margin-left: -5px;
+  color: black;
+}
+.service__list {
+	list-style-type: none;
+	padding-left: 0;
+}
+.service__list:before {
+	content: '';
+  height: 2px;
+  background: lightgray;
+  width: 80%;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.service__button a {
+	border: 2px solid lightgray;
+  width: 50%;
+  display: inline-block;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  color: black;
+}
+.service__content:hover a {
+	color: white;
+	background: #8dc63f;
+	border: 2px solid #8dc63f;
+}
+
+

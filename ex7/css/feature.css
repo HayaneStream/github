@@ -4,6 +4,10 @@
 	padding-bottom: 80px;
 	overflow: hidden;
 }
+.article__2 {
+	background: transparent;
+	padding-bottom: 150px;
+}
 .feature__service {
 	margin-bottom: 20px;
 }
@@ -25,4 +29,8 @@
 }
 .feature__macbook {
 	width: initial;
+}
+.macbook__2 {
+	position: absolute;
+  right: 0;
 }

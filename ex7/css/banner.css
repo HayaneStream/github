@@ -1,19 +1,22 @@
 .banner__banner {
-	background-image: url(../images/full_image_1.jpg);
+	background-image: url(http://s1.picswalls.com/wallpapers/2016/03/29/hd-beautiful-nature-wallpaper_042327317_304.jpg);
 	width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 30px;
   padding-bottom: 30px;
+}
+.about__banner {
+  background-image: url(http://s1.picswalls.com/wallpapers/2016/03/29/beautiful-nature-picture_042325282_304.jpg);
+}
+.tour__banner {
+  background-image: url(https://awesomewallpapers.files.wordpress.com/2016/05/uaturfg.jpg);
+}
+.pricing__banner {
+  background-image: url(http://www.greencraftwicca.org/fotografie/gvid19.jpg);
 }
 .banner__header-wrapper {
 	display: -webkit-inline-box;
-}
-.banner__header-logo {
-	margin-left: 335px;
-  margin-right: 420px;
-  color: white;
 }
 .banner__bold-point {
 	color: #8DC63F;
@@ -21,29 +24,52 @@
 .main__navigation {
   display: -webkit-inline-box;
   transition: all .2s ease-in-out;
+  position: absolute;
+  top: 30px;
+}
+.right__navigation {
+  right: 110px;
 }
 .main__navigation a {
 	margin-right: 15px;
 	color: #B5AFAE;
 }
 .main__navigation a:hover {
-	color: #8DC63F;
+	color: white;
 }
-.banner__button-signup {
-	transition: all .2s ease-in-out;
-}
-.banner__button-signup:hover {
-  background: #841dc3;
+.banner__header-logo {
+  color: white;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 30px;
+  width: 20%;
 }
 .banner__button-signup a {
 	margin-right: 0px;
   border: 2px solid #B5AFAE;
   padding: 5px 15px;
   border-radius: 5px;
+  transition: all .2s ease-in-out;
+}
+.banner__button-signup a:hover {
+  color: #B5AFAE;
+  background: white;
+}
+.banner__intro {
+  text-align: center;
+  color: white;
+}
+.banner__intro p {
+  font-size: 20px;
 }
 .banner__title {
 	margin-top: 140px;
-	color: white;
+  color: white;
 }
 .btn {
   transition: all .2s ease-in-out;
@@ -70,4 +96,25 @@
 	color: #B5AFAE;
 	display: block;
 	margin-top: 150px;
+  margin-bottom: 40px;
+}
+.banner__arrow {
+  position: absolute;
+  color: white;
+  background: #8dc63f;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  left: 0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.banner__arrow:hover {
+  background: #2D6CDF;
 }
