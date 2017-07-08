@@ -24,6 +24,10 @@ img {
 .product__images {
 	border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  transition: all .2s ease-in-out;
+}
+.product__service:hover .product__images {
+	opacity: 0.9;
 }
 .product__info {
 	background: white;
