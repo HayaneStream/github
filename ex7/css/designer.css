@@ -29,3 +29,11 @@
 .designer__link a:hover {
   color: #8dc63f;
 }
+
+@media (max-width: 420px) { 
+	
+	.designer__member {
+		margin-bottom: 20px;
+	}
+
+}	

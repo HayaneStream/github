@@ -75,4 +75,10 @@
 	border: 2px solid #8dc63f;
 }
 
+@media (max-width: 767px) { 
 
+  .service__content {
+    margin-bottom: 20px;
+  }
+  
+}

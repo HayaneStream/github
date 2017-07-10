@@ -41,3 +41,20 @@
 	margin-top: 25px;
   margin-bottom: 10px;
 }
+
+@media (max-width: 767px) { 
+  
+  .display__service {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 420px) { 
+
+  .display__image {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  } 
+
+}

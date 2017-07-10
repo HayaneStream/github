@@ -128,3 +128,27 @@
   left: 0;
   margin: 0 auto;
 }
+
+@media (max-width: 625px) { 
+  
+  .banner__header-logo {
+    top: 70px;
+  } 
+
+  .right__navigation {
+    right: 15px;
+    top: 100px;
+  } 
+
+  .scroll__top {
+    right: 15px;
+    bottom: 45px;
+  }
+
+}
+
+@media (max-width: 393px) {
+  .banner__button-watch {
+    margin-bottom: 10px;
+  }
+}

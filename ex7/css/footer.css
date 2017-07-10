@@ -29,7 +29,7 @@
 	font-weight: bold;
 	margin-bottom: 15px;
 }
-.footer__text {
+.footer__info {
 	display: inline-block;
 	margin-top: 100px;
 }
@@ -39,3 +39,23 @@
 .right-text {
 	margin-left: 390px;
 }
+
+@media (max-width: 1199px) { 	
+	.right-text {
+		margin-left: 210px;
+  }
+}
+
+@media (max-width: 767px) { 
+
+  .footer__text {	
+		margin-top: 0px;
+		display: block;
+  }
+
+  .right-text {
+		margin-left: 0px;
+  }
+}
+
+	

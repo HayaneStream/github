@@ -42,3 +42,10 @@ img {
   padding-top: 20px;
   margin-bottom: 5px;
 }
+@media (max-width: 420px) { 
+
+  .product__service {
+  	margin-bottom: 20px;
+  }
+  	
+}	

@@ -1,7 +1,7 @@
 .subscribe__block {
 	background: #F9F9F9;
 	padding-top: 50px;
-	padding-bottom: 40px;
+	padding-bottom: 60px;
 }
 .subscribe__container h3 {
 	padding-top: 8px;
@@ -9,11 +9,10 @@
 }
 .subscribe__email-form {
 	position: relative;
-  width: 80%;
 }
 .input-group .glyphicon {
 	position: absolute;
-  top: 3px;
+  top: 5px;
   left: 0;
   padding: 10px;
   z-index: 5;
@@ -26,3 +25,9 @@
 	padding-left: 40px;
 	padding-right: 40px;
 }
+@media (max-width: 766px) { 
+
+	.subscribe__container h3 {
+	  margin-bottom: 20px;
+  }
+}	

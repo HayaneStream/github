@@ -25,3 +25,20 @@
   margin: 5px;
   cursor: pointer;
 }
+@media (max-width: 735px) { 
+
+  .user__avatar {
+    width: 25%;
+  }  
+
+  .user__quote {
+    width: 50%;
+    font-size: 18px;
+  } 
+
+  .user__image img {
+    width: 55px;
+    height: 55px;
+  }
+
+}
