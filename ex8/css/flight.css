@@ -1,0 +1,50 @@
+.flight__block {
+	background: #F5F5F5;
+  padding-top: 110px;
+  padding-bottom: 200px;
+}
+.flight__service {
+	margin-top: 70px;
+}
+.flight__intro {
+	font-size: 18px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 20px;
+}
+.flight__content {
+	margin-top: 80px;
+}
+.flight__text {
+	margin-bottom: 15px;
+}
+.flight__about {
+	border-bottom: 1px solid white;
+}
+.flight__about:last-child {
+	border-bottom: 0px;
+}
+.flight__airway {
+	color: white;
+  background: #F78537;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+.flight__info {
+	background: #00AD7C;
+  color: white;
+  padding: 5px;
+  padding-bottom: 6px;
+}
+.flight__name {
+	display: block;
+}
+.flight__date {
+	display: block;
+  color: #8CD8C6;
+}
+.flight__price {
+  font-size: 20px;
+  float: right;
+  margin-top: 5px;
+}

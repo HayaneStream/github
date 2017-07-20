@@ -1,0 +1,71 @@
+.client__block {
+  background: #00AD7C;
+  padding-bottom: 150px;
+  padding-top: 90px;
+}
+.client__container h3 {
+  color: white;
+  text-align: center;
+  margin-bottom: 35px;  
+}
+.client__quote {
+  background: white;
+  padding: 30px;
+  padding-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 6px;    
+  position: relative;
+}
+.client__quote-symbol {
+  font-size: 50px;
+  position: absolute;
+  left: 25px;
+  top: -25px;
+  color: white;
+  background: #00AD7C;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.client__quote-symbol span {
+  margin-top: 20px;
+}
+.client__quote-arrow {
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  bottom: -30px;
+  /*
+  top: 100%; 
+  margin-top: -30px;
+  */
+}
+.client__info {
+  margin-top: 25px;  
+}
+.client__name {
+  color: white;  
+}
+.client__name a {
+  color: #64CDAF;
+  text-decoration: none;  
+  transition: all .2s ease-in-out;
+}
+.client__name a:hover {
+  color: white;  
+}
+.client__job {
+  color: #59C9AA;
+}
+@media (max-width: 425px) { 
+
+  .client__col {
+    margin-bottom: 60px;
+  }
+
+}

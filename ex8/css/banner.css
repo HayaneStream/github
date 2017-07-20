@@ -1,0 +1,147 @@
+.banner__banner {
+	background-image: url(https://s-media-cache-ak0.pinimg.com/originals/58/44/46/58444689bd07e402c03d71cc07703b3e.jpg);
+	width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 130px;
+}
+.banner__search-block {
+  background: white;
+  padding-bottom: 30px;
+}
+.banner__page-title {
+	display: inline-block;
+  padding: 15px;
+  color: #F78536;
+  background: white;
+  margin-right: -4px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.banner__page-title:hover {
+	color: white;
+  background: #F78536;
+}
+.banner__service {
+	padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 15px;
+}
+.banner__row {
+	margin-bottom: 20px;
+}
+.label__name {
+	color: darkgray;
+}
+.input__form {
+	background: #F0ECEA;
+	color: #F78536;
+	padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  font-weight: bold;
+  border: 1px solid transparent;
+  width: 95%;
+}
+.class__choice {
+	width: 98%;
+}
+.banner__search-button a {
+	font-weight: bold;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  display: table;
+  border: 1px solid transparent;
+  background: #F78536;
+  margin: 0 auto;
+  padding: 20px 145px;
+  border-radius: 5px;
+  transition: all .2s ease-in-out;
+  width: 90%;
+}
+.banner__search-button a:hover {
+  background: #2D6CDF;
+}
+.banner__introduction {
+	padding-top: 100px;
+}
+.banner__intro-link {
+  text-decoration: none;
+  color: #848484;
+  transition: all .2s ease-in-out;
+}
+.banner__intro-link:hover {
+	color: white;
+}
+.banner__title {
+	color: white;
+	font-size: 45px;
+	margin-top: 25px;
+}
+.banner__intro {
+	color: white;
+	margin-bottom: 25px;
+}
+.banner__price {
+	font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+@media (max-width: 1024px) { 
+
+	.banner__search-button a {
+		padding: 20px 135px;
+	}
+
+}
+
+@media (max-width: 768px) { 
+
+	.banner__search-button a {
+		padding: 20px 95px;
+	}
+
+}
+
+@media (max-width: 425px) { 
+
+	.banner__search-button a {
+		padding: 20px 145px;
+	}
+	
+  .banner__input {
+  	margin-bottom: 15px;
+  }
+
+}
+
+@media (max-width: 414px) { 
+
+	.banner__search-button a {
+		padding: 20px 140px;
+	}
+
+}
+
+.banner__search-button a:hover {
+  background: #2D6CDF;
+}
+@media (max-width: 375px) { 
+
+	.banner__search-button a {
+		padding: 20px 120px;
+	}
+
+}
+
+@media (max-width: 320px) { 
+
+	.banner__search-button a {
+		padding: 20px 100px;
+	}
+
+}

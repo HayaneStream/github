@@ -1,0 +1,112 @@
+.tour__block {
+	background-color: #F5F5F5;
+	padding-top: 60px;
+  padding-bottom: 130px;
+}
+.title__intro {
+	text-align: center;
+}
+.title__intro h1 {
+	margin-bottom: 20px;
+}
+h1 {
+	margin-top: 0px;
+}
+h3 {
+	margin-top: 0px;
+}
+.title__intro:after {
+	height: 2px;
+  background: #F78536;
+  display: inline-block;
+  width: 10%;
+  content: "";
+  margin-top: 25px;
+}
+img {
+	width: 100%;
+}
+.tour__info {
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+  color: white;
+  transition: all .2s ease-in-out;
+}
+.tour__info p {
+	color: white;
+  font-size: 14px;
+}
+.tour__price {
+	font-weight: bold;
+}
+.tour__book {
+	border: 2px solid white;
+  padding: 10px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.tour__book:hover {
+  background-color: #F78536;
+}
+.show__more-content {
+	display: table;
+  margin: 0 auto;
+  margin-top: 25px;
+  border: 2px solid #F78536;
+  padding: 5px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.show__more-content a {
+	color: #F78536;
+	text-decoration: none;
+}
+.show__more-content:hover {
+	background-color: white;
+}
+.tour__col {
+  margin-bottom: 40px;
+}
+.tour__content {
+	margin-top: 70px;
+}
+
+@media (max-width: 768px) { 
+
+	.tour__info {
+		bottom: 10px;
+		left: 30px;
+	}
+
+	.tour__info h3 {
+		font-size: 17px;
+	}
+
+	.tour__info p {
+		font-size: 12px;
+	}
+
+}
+
+@media (max-width: 425px) { 
+
+	.tour__info {
+		bottom: 30px;
+    left: 40px;
+	}
+
+	.tour__info h3 {
+		font-size: 24px;
+	}
+
+	.tour__info p {
+		font-size: 14px;
+	}
+
+}

@@ -1,0 +1,29 @@
+.car__block {
+	padding-bottom: 130px;
+	padding-top: 100px;
+	background: #F6F6F5;
+}
+.car__intro {
+	margin-top: 60px;
+}
+.car__info {
+	background: #F88638;
+  padding: 30px;
+  padding-bottom: 39px;
+}
+.car__info h4 {
+	margin-bottom: 20px;
+	color: white;
+	margin-top: -10px;
+}
+.car__price ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+.car__price ul li {
+	color: white;
+	margin-bottom: 10px;
+}
+.car__price ul li span {
+	font-size: 13px;
+}

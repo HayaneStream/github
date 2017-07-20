@@ -1,0 +1,25 @@
+.hotel__block {
+	margin-top: 90px;
+}
+.hotel__intro {
+	margin-top: 60px;
+}
+.hotel__intro p:first-child {
+  margin-bottom: 20px;
+}
+.hotel__read-more a {
+	color: #F78536;
+	text-decoration: none;
+	transition: all .2s ease-in-out;
+}
+.hotel__read-more a:hover {
+  color: #23527c;
+}
+
+@media (max-width: 425px) { 
+
+	.hotel__text {
+	  margin-bottom: 40px;
+  }
+
+}

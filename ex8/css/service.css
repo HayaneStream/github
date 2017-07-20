@@ -1,0 +1,37 @@
+.service__container {
+	padding-top: 100px;
+  padding-bottom: 130px;
+}
+.first__row {
+	margin-bottom: 40px;
+}
+.service__about .fa {
+	color: lightgrey;
+  font-size: 30px;
+  float: left;
+}
+.service__info {
+	overflow: hidden;
+  padding-left: 30px;
+}
+.service__intro {
+	font-weight: bold;
+	display: block;
+	margin-bottom: 10px;
+}
+.service__about a {
+	color: #F78536;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+@media (max-width: 425px) { 
+
+	.first__row {
+		margin-bottom: 0px;
+	}
+
+  .service__about {
+    margin-bottom: 25px; 
+  }
+
+}

@@ -1,0 +1,38 @@
+.navigation__container {
+	padding-top: 25px;
+  padding-bottom: 20px;
+}
+.navigation__title {
+	display: inline-flex;
+}
+.navigation__title .fa {
+	font-size: 18px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: #F0F0F0;
+  color: #F78536;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.navigation__title h3 {
+  color: #F78536;
+  font-weight: bold;
+  margin-top: 0;
+}
+.main__navigation {
+	float: right;
+}
+.main__navigation a {
+  margin-left: 20px;
+  font-weight: bold;
+  color: #97867F;
+  transition: all .2s ease-in-out;
+}
+.main__navigation a:hover {
+  color: #F78536;
+  text-decoration: none;
+}
