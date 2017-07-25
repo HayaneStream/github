@@ -1,0 +1,39 @@
+.navigation__block:after {
+	content: '';
+  height: 2px;
+  background: lightgray;
+  width: 100%;
+  margin-top: 30px;
+  display: inline-block;
+}
+.navigation__title {
+	display: inline-block;
+}
+.navigation__title h1 {
+	font-family: -webkit-body;
+}	
+.navigation__title p {
+	color: black;
+}
+.navigation__bar {
+	float: right;
+  background: #E2494B;
+  padding: 15px;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+.navigation__bar a {
+  margin: 0 15px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+.navigation__bar a:hover {
+	color: black;
+}
+p {
+	font-size: 15px;
+	line-height: 1.5;
+	color: #A5A5A5;
+}

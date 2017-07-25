@@ -1,0 +1,40 @@
+.banner__container {
+	padding-top: 20px;
+	padding-bottom: 90px;
+}
+.banner__intro {
+	text-align: center;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+img {
+	width: 100%;
+}
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+.banner__image {
+	height: 350px;
+}
+.banner__button-list {
+	text-align: center;
+	margin-top: 20px;
+}
+.banner__button-list li {
+	display: inline-block;
+	margin: 0 5px;
+}
+.banner__button-list li a {
+  border: 2px solid transparent;
+  height: 11px;
+  width: 11px;
+  display: block;
+  border-radius: 11px;
+  background: #CECECE;
+  transition: all .2s ease-in-out;
+}
+.banner__button-list li a:hover {
+	border: 2px solid black;
+	background: white;
+}

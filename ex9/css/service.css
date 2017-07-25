@@ -1,0 +1,51 @@
+.service__container {
+	padding-bottom: 50px;
+}
+.block__title {
+	text-align: center;
+	margin-bottom: 60px;
+}
+.title__intro {
+	padding: 5px 20px;
+  background: #E2494B;
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+}
+.block__title:before,
+.block__title:after{
+	content: "";
+  height: 2px;
+  display: inline-block;
+  width: 470px;
+  background: lightgray;
+  vertical-align: middle;
+}
+.block__title:before {
+  margin-right: -4px;
+}
+.block__title:after {
+  margin-left: -4px;
+}
+.service__intro {
+	margin-bottom: 10px;
+}
+.service__intro .fa {
+	font-size: 30px;
+}
+.service__intro span {
+	font-size: 22px;
+  margin-left: 10px;
+}
+.service__info p {
+	margin-bottom: 5px;
+}
+.block__link {
+  color: #E2494B;
+  transition: all .2s ease-in-out;
+}
+.block__link:hover {
+	color: #353535;
+}

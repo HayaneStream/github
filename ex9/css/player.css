@@ -1,0 +1,9 @@
+.player__container {
+	padding-bottom: 50px;
+}
+.player__intro {
+	margin-top: 10px;
+}
+.player__intro span {
+	font-weight: bold;
+}

@@ -1,0 +1,74 @@
+.footer__article {
+	background: #E2E2E2;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+.footer__block:after {
+	content: '';
+  height: 2px;
+  background: lightgray;
+  width: 100%;
+  margin-top: 50px;
+  display: inline-block;
+}
+.footer__title {
+	font-size: 20px;
+  display: block;
+  margin-bottom: 25px;
+}
+.footer__blog {
+	margin-bottom: 30px;
+}
+.footer__blog:last-child {
+	margin-bottom: 0px;
+}
+.blog__image {
+	width: 95px;
+  height: 95px;
+  float: left;
+}
+.footer__blog-info {
+	overflow: hidden;
+  padding-left: 20px;
+}
+.footer__blog-title {
+	color: #E2494B;
+  font-size: 16px;
+  font-weight: bold;
+}
+.footer__company-info li {
+	color: #A5A5A5;
+}
+.footer__company-info li a {
+	color: #DF3234;
+}
+.footer__company-info li span {
+	font-weight: bold;
+}
+.contact__input-group {
+	margin-bottom: 10px;
+}
+textarea {
+	resize: none;
+}
+.footer__submit-button {
+	font-size: 20px;
+  background: #E2494B;
+  color: white;
+  border: 0px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  transition: all .2s ease-in-out;
+}
+.footer__submit-button:hover {
+  background: #F78536;
+}
+.footer__bottom-text {
+	margin-top: 10px;
+}
+.footer__text {
+	display: inline;
+}
+.float__right {
+	float: right;
+}
