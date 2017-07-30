@@ -25,6 +25,11 @@
   transition: all .2s ease-in-out;
 }
 @media (max-width: 425px) { 
+  
+  .service__container {
+  	padding-top: 60px;
+		padding-bottom: 40px;
+  }
 
 	.first__row {
 		margin-bottom: 0px;

@@ -44,3 +44,15 @@ textarea {
   font-weight: bold;
   background: #2D6CDF;
 }
+
+@media (max-width: 425px) { 
+  
+  .contact__block {
+  	padding-bottom: 90px;
+  }
+
+	.form-control {
+    margin-bottom: 15px;
+  }
+
+}

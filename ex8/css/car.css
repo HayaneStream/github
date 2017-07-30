@@ -27,3 +27,9 @@
 .car__price ul li span {
 	font-size: 13px;
 }
+
+@media (max-width: 425px) {
+	.car__block {
+		padding-bottom: 80px;
+	}
+}

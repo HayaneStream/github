@@ -1,7 +1,7 @@
 .flight__block {
 	background: #F5F5F5;
   padding-top: 110px;
-  padding-bottom: 200px;
+  padding-bottom: 180px;
 }
 .flight__service {
 	margin-top: 70px;
@@ -47,4 +47,12 @@
   font-size: 20px;
   float: right;
   margin-top: 5px;
+}
+
+@media (max-width: 425px) { 
+  
+  .flight__block {
+  	padding-bottom: 70px;
+  }
+
 }

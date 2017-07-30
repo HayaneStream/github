@@ -64,14 +64,6 @@
 	margin-bottom: 30px;
 }
 
-@media (max-width: 1440px) { 
-
-  .destination__center-block {
-    padding-top: 61px;
-    padding-bottom: 75px;
-  }
-}
-
 @media (max-width: 1024px) { 
 
   .destination__center-block {
@@ -90,6 +82,11 @@
   .destination__center-block {
     padding-top: 23px;
     padding-bottom: 29px;
+  }
+
+  .destination__info {
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
   .destination__center-block h1 {

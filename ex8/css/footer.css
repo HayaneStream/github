@@ -41,6 +41,14 @@
 }
 @media (max-width: 425px) { 
 
+  .footer__top-content {
+    text-align: center;
+  }
+
+  .footer__bottom-content {
+		margin-top: 20px;
+  }
+
   .footer__col {
     margin-bottom: 40px;
   }

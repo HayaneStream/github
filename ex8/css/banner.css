@@ -26,8 +26,8 @@
 }
 .banner__service {
 	padding-top: 25px;
-  padding-left: 25px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .banner__row {
 	margin-bottom: 20px;
@@ -53,14 +53,14 @@
   color: white;
   font-size: 18px;
   text-decoration: none;
-  display: table;
+  display: block;
   border: 1px solid transparent;
   background: #F78536;
   margin: 0 auto;
-  padding: 20px 145px;
+  padding: 20px 0px;
   border-radius: 5px;
   transition: all .2s ease-in-out;
-  width: 90%;
+  text-align: center;
 }
 .banner__search-button a:hover {
   background: #2D6CDF;
@@ -91,57 +91,12 @@
   color: white;
 }
 
-@media (max-width: 1024px) { 
-
-	.banner__search-button a {
-		padding: 20px 135px;
-	}
-
-}
-
-@media (max-width: 768px) { 
-
-	.banner__search-button a {
-		padding: 20px 95px;
-	}
-
-}
-
 @media (max-width: 425px) { 
-
-	.banner__search-button a {
-		padding: 20px 145px;
-	}
-	
+  
   .banner__input {
   	margin-bottom: 15px;
   }
 
 }
 
-@media (max-width: 414px) { 
 
-	.banner__search-button a {
-		padding: 20px 140px;
-	}
-
-}
-
-.banner__search-button a:hover {
-  background: #2D6CDF;
-}
-@media (max-width: 375px) { 
-
-	.banner__search-button a {
-		padding: 20px 120px;
-	}
-
-}
-
-@media (max-width: 320px) { 
-
-	.banner__search-button a {
-		padding: 20px 100px;
-	}
-
-}

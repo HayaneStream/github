@@ -96,6 +96,10 @@ img {
 
 @media (max-width: 425px) { 
 
+  .tour__block {
+  	padding-bottom: 80px;
+  }
+  
 	.tour__info {
 		bottom: 30px;
     left: 40px;

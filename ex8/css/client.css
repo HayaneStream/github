@@ -63,6 +63,10 @@
   color: #59C9AA;
 }
 @media (max-width: 425px) { 
+  
+  .client__block {
+    padding-bottom: 30px;
+  }
 
   .client__col {
     margin-bottom: 60px;

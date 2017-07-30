@@ -46,11 +46,20 @@
 .first__blog-row {
 	margin-bottom: 30px;
 }
-@media (max-width: 420px) { 
+@media (max-width: 425px) { 
+  
+  .blog__block {
+  	padding-bottom: 60px;
+  }
+
+  .blog__content {
+		margin-bottom: 60px;
+  }
 
 	.blog__col {
 		margin-bottom: 30px;
 	}
+
   .first__blog-row
    {
     margin-bottom: 0px; 
